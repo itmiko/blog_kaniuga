@@ -55,10 +55,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse"><!-- navbar-collapse -->
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
+                    <li>
                         <a href="index.html">Домашня</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="blog.html">Блог</a>
                     </li>
                     <li class="dropdown"><!-- menu dropdawn -->
@@ -116,85 +116,18 @@
     </nav>
 
 
-    <!-- Fade Bs-carousel 
-    ======================================== -->
-
-    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#bs-carousel" data-slide-to="1"></li>
-            <li data-target="#bs-carousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item slides active">
-                <!-- Overlay -->
-                <div class="overlay"></div>
-                <div class="slide-1"></div>
-                <div class="hero">
-                    <h1>Ви креативні</h1>
-                    <h3>Почни свій проект</h3>
-                    <a href="about_courses.html" class="butn">Більше</a>
-                </div>
-            </div>
-            <div class="item slides">
-                <div class="slide-2"></div>
-                <div class="hero">
-                    <h1>Ви розумні</h1>
-                    <h3>Почни свій проект</h3>
-                    <a href="about_courses.html" class="butn">Більше</a>
-                </div>
-            </div>
-            <div class="item slides">
-                <div class="slide-3"></div>
-                <div class="hero">
-                    <h1>Ви чудові</h1>
-                    <h3>Почни свій проект</h3>
-                    <a href="about_courses.html" class="butn">Більше</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--  jumbotron 
-    ======================================== -->
-
-    <header class="jumbotron"><!-- jumbotron -->
-        <div class="container"><!-- container -->
-            <div class="row"><!-- row -->
-                <div class='col-sm-8'>
-                    <h1>
-                        <span class="highlight">Блог</span>
-                        про Людей
-                        <br>та Відносини</h1>
-                    <p style="padding:15px;"></p>
-                    <blockquote>
-                        <p>"Живемо між людей, а не між ангелів", - Борісов Володимир</p>
-                    </blockquote>
-                    <p>
-                        <em>Цитати річ геть некорисна якщо у вас немає прикладного застосування.
-                        Дійсно живемо між людей і не завжди відносини і співпраця є ефективними і комфортними.
-                        Частіше за все віддаємо все на волю випадковості і не можемо впливати на процес відносин свідомо.
-                        Але насправді кожна людина може більше....
-                        Власне про те що може людина в спілкуванні з іншими і є цей блог...
-                        <br>Я, Канюга Павло і це мій блог</em></p>
-                </div>
-                <div class='col-sm-4'>
-                    <div class="buttons">
-                        <a class="butn" href="about_me.html">Про мене</a>
-                        <a class="butn" href="blog.html">Блог</a>
-                    </div>
-                </div>
-            </div><!-- end row -->
+    
+<!-- Page Header
+    ================================================== -->
+    <div id="header">
+        <div class="container"> <!-- container -->
+            <h1>Блог</h1>
         </div><!-- end container -->
-    </header><!-- end jumbotron -->
+    </div>
 
  <!--  Blog Section
     ======================================== -->
-    <div id="home-blog">
+    <div id="home-blog" class="blog">
         <div class="container"> <!-- container -->
             <div class="section-header">
                 <h2>Останні новини з<span class="highlight"><strong> Блогу</strong></span></h2>
@@ -202,10 +135,66 @@
                 <!-- <div class="fancy"><span><img src="img/logo_big.png" alt="..."></span></div> -->
             </div>
         </div>
-        <div id="blog-post" class="gray-bg"> <!-- fullwidth gray background -->
+        <div id="blog-post"> <!-- fullwidth gray background -->
             <div class="container"><!-- container -->
                 <div class="row"> <!-- row -->
-                    <div class="col-md-6"> <!-- Left content col 6 -->
+                    <div class="col-md-6 col-md-offset-1"> <!-- Left Blogrol col 8 -->
+                        <div class="post-wrap"> <!-- Post Wrapper -->
+                            <div class="media post"> <!-- post wrap -->
+                                <div class="media-left"> 
+                                    <a href="#"> <!-- link to your post single page -->
+                                      <img class="media-object" src="http://placehold.it/120x150" alt="..."> <!-- Your Post Image -->
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <p class="date small">January 14, 2015</p>
+                                    <a href="blog-post.html">
+                                        <h5 class="heading media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                    </a>
+                                    <p class="blog-text">Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus </p>
+                                </div>
+                            </div><!-- end post wrap -->
+                            
+                            <div class="post-meta"> <!-- Meta details -->
+                                <ul class="list-inline metas pull-left"> <!-- post metas -->
+                                    <li class="comments"><a href="blog-post.html">20 коментарів</a></li> <!-- meta comments -->
+                                    <li class="more"><a href="blog-post.html">Більше</a></li> <!-- read more link -->
+                                </ul>
+                                <ul class="list-inline meta-detail pull-right"> <!-- user meta interaction -->
+                                    <li class="like"><a href="#"><i class="fa fa-heart"></i></a> 50</li> <!-- like button -->
+                                    <li class="views"><i class="fa fa-eye"></i> 110</li> <!-- no. of views -->
+                                </ul>
+                            </div><!-- end Meta details --> 
+                        </div><!-- end Post Wrapper -->
+
+                        <div class="post-wrap"> <!-- Post Wrapper -->
+                            <div class="media post"> <!-- post wrap -->
+                                <div class="media-left"> 
+                                    <a href="blog-post.html"> <!-- link to your post single page -->
+                                      <img class="media-object" src="http://placehold.it/120x150" alt="..."> <!-- Your Post Image -->
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <p class="date small">January 14, 2015</p>
+                                    <a href="blog-post.html">
+                                        <h5 class="heading media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                    </a>
+                                    <p class="blog-text">Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus </p>
+                                </div>
+                            </div><!-- end post wrap -->
+                            
+                            <div class="post-meta"> <!-- Meta details -->
+                                <ul class="list-inline metas pull-left"> <!-- post metas -->
+                                    <li class="comments"><a href="blog-post.html">20 коментарів</a></li> <!-- meta comments -->
+                                    <li class="more"><a href="blog-post.html">Більше</a></li> <!-- read more link -->
+                                </ul>
+                                <ul class="list-inline meta-detail pull-right"> <!-- user meta interaction -->
+                                    <li class="like"><a href="#"><i class="fa fa-heart"></i></a> 50</li> <!-- like button -->
+                                    <li class="views"><i class="fa fa-eye"></i> 110</li> <!-- no. of views -->
+                                </ul>
+                            </div><!-- end Meta details --> 
+                        </div><!-- end Post Wrapper -->
+
                         <div class="post-wrap"> <!-- Post Wrapper -->
                             <div class="media post"> <!-- post wrap -->
                                 <div class="media-left"> 
@@ -289,36 +278,6 @@
                                 </ul>
                             </div><!-- end Meta details --> 
                         </div><!-- end Post Wrapper -->
-                    </div> <!-- end Left content col 6 -->
-
-                    <div class="col-md-6"> <!-- right content col 6 -->
-                        <div class="post-wrap"> <!-- Post Wrapper -->
-                            <div class="media post"> <!-- post wrap -->
-                                <div class="media-left"> 
-                                    <a href="blog-post.html"> <!-- link to your post single page -->
-                                      <img class="media-object" src="http://placehold.it/120x150" alt="..."> <!-- Your Post Image -->
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <p class="date small">January 14, 2015</p>
-                                    <a href="blog-post.html">
-                                        <h5 class="heading media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
-                                    </a>
-                                    <p class="blog-text">Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus </p>
-                                </div>
-                            </div><!-- end post wrap -->
-                            
-                            <div class="post-meta"> <!-- Meta details -->
-                                <ul class="list-inline metas pull-left"> <!-- post metas -->
-                                    <li class="comments"><a href="blog-post.html">20 коментарів</a></li> <!-- meta comments -->
-                                    <li class="more"><a href="blog-post.html">Більше</a></li> <!-- read more link -->
-                                </ul>
-                                <ul class="list-inline meta-detail pull-right"> <!-- user meta interaction -->
-                                    <li class="like"><a href="#"><i class="fa fa-heart"></i></a> 50</li> <!-- like button -->
-                                    <li class="views"><i class="fa fa-eye"></i> 110</li> <!-- no. of views -->
-                                </ul>
-                            </div><!-- end Meta details --> 
-                        </div><!-- end Post Wrapper -->
 
                         <div class="post-wrap"> <!-- Post Wrapper -->
                             <div class="media post"> <!-- post wrap -->
@@ -348,79 +307,163 @@
                             </div><!-- end Meta details --> 
                         </div><!-- end Post Wrapper -->
 
-                        <div class="post-wrap"> <!-- Post Wrapper -->
-                            <div class="media post"> <!-- post wrap -->
-                                <div class="media-left"> 
-                                    <a href="blog-post.html"> <!-- link to your post single page -->
-                                      <img class="media-object" src="http://placehold.it/120x150" alt="..."> <!-- Your Post Image -->
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <p class="date small">January 14, 2015</p>
-                                    <a href="blog-post.html">
-                                        <h5 class="heading media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
-                                    </a>
-                                    <p class="blog-text">Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio. Diam nibh diam, quam elit, libero nostra ut. Pellentesque vehicula. Eget sed, dapibus </p>
-                                </div>
-                            </div><!-- end post wrap -->
-                            
-                            <div class="post-meta"> <!-- Meta details -->
-                                <ul class="list-inline metas pull-left"> <!-- post metas -->
-                                    <li class="comments"><a href="blog-post.html">20 коментарів</a></li> <!-- meta comments -->
-                                    <li class="more"><a href="blog-post.html">Більше</a></li> <!-- read more link -->
+                        <div class="text-left"> <!-- Blogrol Pagination -->
+                            <nav>
+                                <ul class="pagination">
+                                    <li>
+                                      <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">Назад</span>
+                                      </a>
+                                    </li>
+                                    <li><a href="#" class="active">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li>
+                                      <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">Вперед</span>
+                                      </a>
+                                    </li>
                                 </ul>
-                                <ul class="list-inline meta-detail pull-right"> <!-- user meta interaction -->
-                                    <li class="like"><a href="#"><i class="fa fa-heart"></i></a> 50</li> <!-- like button -->
-                                    <li class="views"><i class="fa fa-eye"></i> 110</li> <!-- no. of views -->
+                            </nav>
+                        </div>         
+                    </div> <!-- end Left content col 8 -->
+                    <div class="col-md-4"> <!-- Blog Sidebar -->
+                        <div class="sidebar">
+
+                            <div class="widget search"> <!-- Search Widget -->
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Пошук ...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button"><span class="fa fa-search"></span></button>
+                                    </span>
+                                </div><!-- /input-group -->
+                            </div> <!-- end Search Widget -->
+
+                 
+                            <div class="widget archive"> <!-- Archive Widget -->
+                                <h4 class="text-uppercase">Архів</h4>
+                                <ul class="list-unstyled bullet-lists">
+                                    <li><a href="#"><span class="fa fa-circle"></span> Травень 2017</a></li>
+                                    <li><a href="#"><span class="fa fa-circle"></span> Квітень 2017</a></li>
+                                    <li><a href="#"><span class="fa fa-circle"></span> Березень 2017</a></li>
+                                    <li><a href="#"><span class="fa fa-circle"></span> Лютий 2017</a></li>
+                                    <li><a href="#"><span class="fa fa-circle"></span> Січень 2017</a></li>
+                                    <li><a href="#"><span class="fa fa-circle"></span> Грудень 2016</a></li>
                                 </ul>
-                            </div><!-- end Meta details --> 
-                        </div><!-- end Post Wrapper -->
-                    </div><!-- end right content col 6 -->
+                            </div>
+
+                            <div class="widget post-tab"> <!-- Posts Tab Widget -->
+                                <div role="tabpanel">
+
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#popular" aria-controls="popular" role="tab" data-toggle="tab">Популярне</a></li><!-- Popular Posts -->
+                                        <li role="presentation"><a href="#recent" aria-controls="recent" role="tab" data-toggle="tab">Останнє</a></li><!-- Recent Posts -->
+                                        <li role="presentation"><a href="#comment" aria-controls="comment" role="tab" data-toggle="tab">Коментоване</a></li><!-- Comments -->
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content"> 
+                                        <div role="tabpanel" class="tab-pane active" id="popular"><!-- Popular Posts -->
+                                            <div class="list-group">
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">January 27, 2015</p>
+                                                    <h5 class="media-heading"><strong>Condimentum aliquam, mollit magna velit nec et scelerisque</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">January 14, 2015</p>
+                                                    <h5 class="media-heading"><strong>Pellentesque vehicula. Eget sed, dapibus. Vel et scelerisque donec et</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">Feb 12, 2015</p>
+                                                    <h5 class="media-heading"><strong>Et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">January 14, 2015</p>
+                                                    <h5 class="media-heading"><strong>Scelerisque vestibulum Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">December 19, 2015</p>
+                                                    <h5 class="media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="recent"><!-- Recent Posts -->
+                                            <div class="list-group">
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">January 14, 2015</p>
+                                                    <h5 class="media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">January 14, 2015</p>
+                                                    <h5 class="media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">January 14, 2015</p>
+                                                    <h5 class="media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">January 14, 2015</p>
+                                                    <h5 class="media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">January 14, 2015</p>
+                                                    <h5 class="media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="comment"><!-- Comments -->
+                                            <div class="list-group">
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">Ms. Lijoy <strong>Comments</strong> on:</p>
+                                                    <h5 class="media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">Coder Expert <strong>Comments</strong> on:</p>
+                                                    <h5 class="media-heading"><strong>Pellentesque vehicula. Eget sed, dapibus. Vel et scelerisque donec et</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">Cool Design <strong>Comments</strong> on:</p>
+                                                    <h5 class="media-heading"><strong>Et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">Mark Szuckerburg <strong>Comments</strong> on:</p>
+                                                    <h5 class="media-heading"><strong>Scelerisque vestibulum Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                                <a href="#" class="list-group-item">
+                                                    <p class="small">Ruji <strong>Comments</strong> on:</p>
+                                                    <h5 class="media-heading"><strong>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec</strong></h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+<!-- 
+                            <div class="widget tags">
+                                <h4 class="text-uppercase">Tags</h4>
+                                <ul class="list-inline bullet-lists">
+                                    <li><a href="#">web design</a></li>
+                                    <li><a href="#">business</a></li>
+                                    <li><a href="#">psd design</a></li>
+                                    <li><a href="#">themeforest</a></li>
+                                    <li><a href="#">wordpress</a></li>
+                                    <li><a href="#">responsive</a></li>
+                                    <li><a href="#">bootstrap</a></li>
+                                </ul>
+                            </div>
+ -->
+
+                        </div>
+                    </div><!-- end right content col 4 -->
+
                 </div><!-- end row -->          
             </div><!-- end container -->
         </div> <!-- end fullwidth gray background -->
     </div>
 
-
-<!-- Fade Bs-carousel 
-    ======================================== -->
-
-    <div class="carousel fade-carousel-2 slide" data-ride="carousel" data-interval="4000" id="bs-carousel-2">
-
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#bs-carousel-2" data-slide-to="0" class="active"></li>
-            <li data-target="#bs-carousel-2" data-slide-to="1"></li>
-            <li data-target="#bs-carousel-2" data-slide-to="2"></li>
-        </ol>
-
-        
-        <div class="carousel-inner"><!-- wrapper for slides -->
-            <div class="item slides active">
-                <!-- Overlay -->
-                <div class="overlay"></div>
-                <div class="slide-1"></div>
-                <div class="hero">
-                    <h2>Відгуки клієнтів</h2>
-                    <h4><em>"Дуже задоволений курсом про взаємовідносини. Воно того вартувало!"</em></h4>
-                </div>
-            </div>
-            <div class="item slides">
-                <div class="slide-2"></div>
-                <div class="hero">
-                    <h2>Відгуки клієнтів</h2>
-                    <h4><em>"Дуже задоволений курсом про взаємовідносини. Воно того вартувало!"</em></h4>
-                </div>
-            </div>
-            <div class="item slides">
-                <div class="slide-3"></div>
-                <div class="hero">
-                    <h2>Відгуки клієнтів</h2>
-                    <h4><em>"Дуже задоволений курсом про взаємовідносини. Воно того вартувало!"</em></h4>
-                </div>
-            </div>
-        </div> <!-- end wrapper for slides -->
-    </div>
 
  <!-- Footer 
     ======================================== -->

@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <!-- Basic Page Needs
+    ======================================== -->
     <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="x-ua-compatible" content="IE=9" />
+    <![endif]-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head 
-         content must come *after* these tags -->
-    <title>Про мене</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <title>Блог Павла Канюги 17types</title>
+    <meta name="description" content="Блог Павла Канюги 17types">
+    <meta name="keywords" content="Блог 17types, 17types, 17 types, Павло Канюга, Блог про людей та відносини, психолог, психологія, психотерапевт">
+    <meta name="author" content="http://happyuser.info">
+
+    <!-- Favicons
+    ======================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap
+    ======================================== -->
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap-social.css" rel="stylesheet"> -->
+
+    <!-- Stylesheet
+    ======================================== -->
     <link href="css/mystyles.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,9 +37,13 @@
     <![endif]-->
 </head>
 
-<body >
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+<body>
+
+    <!-- Main Navigation 
+    ======================================== -->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">  <!-- container -->
+            <!-- brand & toggle -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -33,28 +51,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">16TYPES</a>
+                <a class="navbar-brand" href="#"></a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="navbar" class="navbar-collapse collapse"><!-- navbar-collapse -->
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">
-                            <span class="glyphicon glyphicon-home"
-                            aria-hidden="true"></span>
-                            Домашня
-                        </a>
+                        <a href="index.html">Домашня</a>
                     </li>
-                    <!-- menu dropdawn -->
-                    <li class="active" class="dropdown">
+                    <li>
+                        <a href="blog.html">Блог</a>
+                    </li>
+                    <li class="dropdown active"><!-- menu dropdawn -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">
-                            <span class="glyphicon glyphicon-info-sign"
-                            aria-hidden="true"></span>
                             Про мене
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                        <li>
+                            <li>
                                 <a href="about_me.html">Хто я</a>
                             </li>
                             <li>
@@ -70,91 +84,82 @@
                                 <a href="about_response.html">Відгуки</a>
                             </li>
                         </ul>
-                    </li>
-                    <!--end menu dropdawn -->
-                    <!-- menu dropdawn -->
-                    <li class="dropdown">
+                    </li><!--end menu dropdawn -->
+                    
+                    <li class="dropdown"><!-- menu dropdawn -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">
-                            <span class="glyphicon glyphicon-list-alt"
-                            aria-hidden="true"></span>
                             Продукти
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#">Консультування</a>
+                                <a href="about_consult.html">Консультування</a>
                             </li>
                             <li>
-                                <a href="#">Навчальні курси</a>
+                                <a href="about_courses.html">Навчальні курси</a>
                             </li>
                             <li>
-                                <a href="#">Співпраця</a>
+                                <a href="about_cooperation.html">Співпраця</a>
                             </li>
                         </ul>
-                    </li>
-                    <!--end menu dropdawn -->
+                    </li><!--end menu dropdawn -->
                     <li>
-                        <a href=""> <i class="glyphicon glyphicon-cog"></i>
-                            Про методику
-                        </a>
+                        <a href="about_method.html">Про методику</a>
                     </li>
                     <li>
-                        <a href="contacts.html"> <i class="fa fa-envelope-o"></i>
-                            Контакти
-                        </a>
+                        <a href="contacts.html">Контакти</a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </div><!-- navbar-collapse -->
+        </div> <!-- end container --> 
     </nav>
-    <header class="jumbotron">
-        <!-- Main component for a primary marketing message or call to action -->
-        <div class="container">
-            <div class="row row-header">
-                <div class='col-xs-12'>
-                    <h1>Юзаю і Вам всім рекомендую</h1>
-                    <p style="padding:40px;"></p>
-                </div>
-            </div>
-        </div>
-    </header>
+
+<!-- Page Header
+    ============================================= -->
+    <div id="header">
+        <div class="container"> <!-- container -->
+            <h1>Юзаю та всім рекомендую</h1>
+        </div><!-- end container -->
+    </div>
+
+
+
     <div class='container'>
         <div class='row row-content'>
             <div class="col-xs-12 col-sm-3 text-center">
-                <!-- <p style="padding:20px;"></p>
-            -->
             <h3>Сервіси GOOGLE</h3>
-            <img style="height:100px;" class="center-block img-thumbnail"
-                         src="img/google_services.png" alt="google services" ></div>
+           <!--  <img style="height:100px;" class="center-block img-thumbnail"
+                         src="img/google_services.png" alt="google services" > -->
+        </div>
         <div div class="col-xs-12 col-sm-9">
             <div class="media">
                 <p>
                     <span class='link'>
                         <a href="http://gmail.com" target="_blank">Gmail</a>
                     </span>
-                    – Основна і дуже функціональна пошта з можливістю налаштувати під себе все (навіть фон) - уніфікована зі всіма іншими сервісами, на неї легко перейти з Mail.ru та інших сервісів.
+                    – основна і дуже функціональна пошта з можливістю налаштувати під себе все (навіть фон) - уніфікована зі всіма іншими сервісами, на неї легко перейти з Mail.ru та інших сервісів.
                 </p>
 
                 <p>
                     <span class='link'>
                         <a href="http://docs.google.com" target="_blank">Google docs</a>
                     </span>
-                    – Документи, Таблиці, Презентації, Форми - зручні, зрозумілі, надійні - просто бомба.
+                    – документи, Таблиці, Презентації, Форми - зручні, зрозумілі, надійні - просто бомба.
                 </p>
 
                 <p>
                     <span class='link'>
                         <a href="http://www.google.com/drive" target="_blank">Google Drive</a>
                     </span>
-                    – Хмарний жорсткий диск, дозволяє мати доступ до потрібних матеріалів з будь-якого куточка світу.
+                    – хмарний жорсткий диск, дозволяє мати доступ до потрібних матеріалів з будь-якого куточка світу.
                 </p>
 
                 <p>
                     <span class='link'>
                         <a href="http://sites.google.com" target="_blank">Google Sites</a>
                     </span>
-                    – Що тут скажеш, в дану секунду, коли я це пишу і ти читаєш, ми користуємся цим сервісом (інтернет тавтологія виникла).
+                    – що тут скажеш, в дану секунду, коли я це пишу і ти читаєш, ми користуємся цим сервісом (інтернет тавтологія виникла).
                 </p>
 
                 <p>
@@ -168,14 +173,14 @@
                     <span class='link'>
                         <a href="http://maps.google.com" target="_blank">Google maps</a>
                     </span>
-                    – Ідеальне рішення для людей з "Топографічним Критинізмом", є мобільний і десктопний сервіс (між собою дуже добре співпрацюють).
+                    – ідеальне рішення для людей з "Топографічним Критинізмом", є мобільний і десктопний сервіс (між собою дуже добре співпрацюють).
                 </p>
 
                 <p>
                     <span class='link'>
                         <a href="http://www.google.com/calendar" target="_blank">Google calendar</a>
                     </span>
-                    – Улюблений органайзер і планувальник.
+                    – улюблений органайзер і планувальник.
                 </p>
 
                 <p>
@@ -190,8 +195,9 @@
     <div class='row row-content'>
         <div class="col-xs-12 col-sm-3 col-sm-push-9">
             <h3 align=center>Менеджери та утіліти</h3>
-            <img style="height:100px;" class="center-block img-thumbnail"
-                         src="img/utility.png" alt="utility"></div>
+            <!-- <img style="height:100px;" class="center-block img-thumbnail"
+                         src="img/utility.png" alt="utility"> -->
+        </div>
         <div div class="col-xs-12 col-sm-9 col-sm-pull-3">
 
             <div class="media">
@@ -213,7 +219,7 @@
                     <span class='link'>
                         <a href="http://www.google.com/drive" target="_blank">EVERNOTE</a>
                     </span>
-                    – Хмарний жорсткий диск, дозволяє мати доступ до потрібних матеріалів з будь-якого куточка світу.
+                    – хмарний жорсткий диск, дозволяє мати доступ до потрібних матеріалів з будь-якого куточка світу.
                 </p>
 
                 <p>
@@ -227,7 +233,7 @@
                     <span class='link'>
                         <a href="https://www.wunderlist.com" target="_blank">Wunderlist</a>
                     </span>
-                    – менеджер завдань-для прокрастинаторів
+                    – менеджер завдань для прокрастинаторів
                 </p>
 
             </div>
@@ -239,8 +245,9 @@
             <!-- <p style="padding:20px;"></p>
         -->
         <h3>Browsers</h3>
-        <img style="height:100px;" class="center-block img-thumbnail"
-                         src="img/web_browsers.png" alt="web browsers" ></div>
+            <!-- <img style="height:100px;" class="center-block img-thumbnail"
+                         src="img/web_browsers.png" alt="web browsers" > -->
+        </div>
     <div div class="col-xs-12 col-sm-9">
         <div class="media">
             <div class="media">
@@ -269,66 +276,26 @@
     </div>
 </div>
 </div>
-<footer class="row-footer">
-<div class="container">
-    <div class="row row-footer">
-        <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1">
-            <h5>Меню</h5>
-            <ul class="list-unstyled">
-                <li>
-                    <a href="#">Домашня</a>
-                </li>
-                <li>
-                    <a href="#">Про мене</a>
-                </li>
-                <li>
-                    <a href="#">Продукти</a>
-                </li>
-                <li>
-                    <a href="#">Про методику</a>
-                </li>
-                <li>
-                    <a href="#">Контакти</a>
-                </li>
+ <!-- Footer 
+    ======================================== -->
+    <div id="footer">
+        <div class="container"><!-- container -->
+            <p class="pull-left">© 2017 16TYPES. Made by <a href="http://happyuser.info">Happyusers</a></p> <!-- copyright text here-->
+            <ul class="list-inline social pull-right">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
             </ul>
-        </div>
-        <div class="col-xs-6 col-sm-5">
-            <h4>16TYPES</h4>
-            <p>Блог Павла Канюги</p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <div class="nav navbar-nav" style="padding: 40px 10px;">
-                <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
-                    <i class="fa fa-google-plus"></i>
-                </a>
-                <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/">
-                    <i class="fa fa-youtube"></i>
-                </a>
-                <a class="btn btn-social-icon" href="mailto:">
-                    <i class="fa fa-envelope-o"></i>
-                </a>
-            </div>
-        </div>
-        <div class="col-xs-12">
-            <p style="padding:10px;"></p>
-            <p align=center>© Copyright 2017 Blog</p>
-        </div>
+        </div><!-- end container -->
     </div>
-</div>
-</footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
