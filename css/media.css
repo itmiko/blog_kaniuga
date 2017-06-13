@@ -7,12 +7,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	#navbar li a{
-    /*text-transform: none;*/
-    font-size: 12px;
-}
-
-
+    #navbar li a{
+        font-size: 12px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -24,7 +21,6 @@
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
-    
     .navbar-fixed-top .navbar-collapse {
       text-align: center;
     }
@@ -32,9 +28,9 @@
     	font-size: 4em;
     }    
     .jumbotron .buttons {
-  		margin-top: 20px;
- 		text-align: center;
-	}
+        margin-top: 20px;
+        text-align: center;
+}
 
 }
 
@@ -48,7 +44,10 @@
     }
     .comment_post {
     font-size: 11px;
-}
+    }
+    .consult h1 {
+        font-size: 22px;
+    }
 
 }
 
@@ -80,8 +79,8 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    .hero { width: 980px; }    
-	
+    .hero { width: 980px;
+    }
 }
 
  /* Large Devices, Wide Screens */

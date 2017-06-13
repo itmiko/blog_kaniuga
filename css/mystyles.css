@@ -1,9 +1,9 @@
-*******************************/
+/********************************/
 /*          general             */
 /********************************/
 
 body {
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
 }
 
 a:hover,
@@ -401,6 +401,7 @@ ul.metas li a {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
 .blog .post-meta {
     border-top: 1px solid #ebebeb;
     background-color: #ffffff;
@@ -412,6 +413,7 @@ ul.metas li a {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
 .pagination > li > a,
 .pagination > li > span {
     position: relative;
@@ -428,6 +430,7 @@ ul.metas li a {
     text-transform: uppercase;
     border-radius: 5px;
 }
+
 .pagination > li > a.active,
 .pagination > li > a:hover,
 .pagination > li > span:hover,
@@ -446,15 +449,18 @@ ul.metas li a {
     margin-bottom: 40px;
     padding: 0 20px;
 }
+
 .comment h4,
 .widget h4,
 h4.text-uppercase {
     font-weight: 300;
     color: #FFCC33;
 }
+
 .comment h4 span.comments {
     color: #333333ж
 }
+
 /* Search */
 button.btn.btn-default {
     margin-bottom: 20px;
@@ -479,10 +485,6 @@ ul.list-unstyled.bullet-lists li {
     padding: 5px 0;
 }
 
-ul.list-unstyled.bullet-lists li:hover {
-    color: #FFCC33;
-}
-
 /* Post Tab */
 .post-tab .nav-tabs > li > a {
     margin-right: -1px;
@@ -505,26 +507,6 @@ ul.list-unstyled.bullet-lists li:hover {
     border-bottom-color: transparent;
 }
 
-/* Tags */
-/*ul.list-inline.bullet-lists li a {
-    color: inherit;
-}
-
-ul.list-inline.bullet-lists li {
-    background: #F8F8F8;
-    padding: 5px 10px;
-    margin-bottom: 5px;
-    margin-right: 2px;
-    border: 1px solid #F4F4F4;
-    border-radius: 3px;
-    transition: all 0.3s;
-}
-
-ul.list-inline.bullet-lists li:hover {
-    background: #FFCC33;
-}*/
-
-
 
 /* Single Blog Post */
 .blog-post .post-wrap img,
@@ -537,15 +519,18 @@ ul.list-inline.bullet-lists li:hover {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
 }
+
 /* Comment */
 .media.comment-block {
     border: 1px solid #DDD;
     padding: 20px;
 }
+
 .comment { margin-top: 40px }
 /*.comment form { margin-top: -30px }*/
 .comment input,
-.comment textarea { margin-bottom: 15px }
+.comment textarea { margin-bottom: 15px
+    }
 
 .comment_post {
     margin-top: 10px;
@@ -668,7 +653,7 @@ ul.social li a i:hover {
 }
 
 
-/*l;;;;;;;;;;;;;;;;;;;;;;*/
+/*   */
 
 .form-control:focus {
     border-color: inherit;
@@ -724,6 +709,9 @@ ul.social li a i:hover {
     font-weight: bold;
 }
 
+/********************************/
+/*  projects, books, response   */
+/********************************/
 .projects {
     padding-top: 30px; 
 }
@@ -732,65 +720,115 @@ ul.social li a i:hover {
     margin-bottom: 40px;
 }
 
-
-
 .books,
 .response,
-.consulting {
-    padding: 30px 0 70px 0;
+.consulting,
+.courses,
+.cooperation,
+.method {
+    padding: 40px 0 70px 0;
 }
 
-/*.media-body .author {
-  display: inline-block;
-  font-size: 1.5rem;
-  color: #000;
-  font-weight: 700;
-}*/
-/*.metadata {
-  display: inline-block;
-  margin-left: .5rem;
-  color: #777;
-  font-size: 1rem;
-}*/
-/*.footer-comment {
-  color: #777;
-}
-.vote.plus:hover {
-  color: green;
-}
-.vote.minus:hover {
-  color: red;
-}
-.vote {
-  cursor: pointer;
-}
-.comment-reply a {
-  color: #777;
-}
-.comment-reply a:hover, .comment-reply a:focus {
-  color: #000;
-  text-decoration: none;
-}
-.devide {
-  padding: 0px 4px;
-  font-size: 0.9em;
-}
-.media-text {
-  margin-bottom: 0.25rem;
-}
-.title-comments {
-  font-size: 1.4rem;
-  font-weight: bold;
-  line-height: 1.5rem;
-  color: rgba(0,0,0,.87);
-  margin-bottom: 1rem;
-  padding-bottom: .25rem;
-  border-bottom: 1px solid rgba(34,36,38,.15); 
+.wrap_block {
+    margin-bottom: 50px;
 }
 
-article {
-  margin-top: 30px;
+.consulting .butn,
+.courses .butn {
+    width: 133px;
 }
-.content-article {
-  padding: 30px 50px 30px 0;
+
+.courses a:hover  {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.cooperation {
+    font-size: 18px;
+    color:#3498db;
+}
+
+.cooperation a {
+    color:#ffcc33;
+}
+
+.method ul.list-unstyled.bullet-lists ul {
+    margin-left: 25px;
+}
+
+/********************************/
+/*        Contact Section       */
+/********************************/
+#contact { 
+    padding: 30px 0;
+}
+
+.contact-detail {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.contact-detail i.fa {
+    text-align: center;
+    font-size: 30px;
+    background-color: #FFCC33;
+    color: #ffffff;
+    padding: 25px 0;
+    border-radius: 50px;
+    margin: 0 10px;
+    margin-right: 20px;
+    width: 82px;
+    height: 80px;
+    transition: background-color 0.5s;
+}
+
+.contact-detail:hover i.fa {
+    background-color: #3498db;
+}
+
+form#contact-form { 
+    padding: 40px 0;
+}
+
+.contact form#contact-form {
+    padding: 0;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+p.help-block.text-danger ul li {
+    display: block;
+    margin-left: -20px;
+    color: #FFCC33;
+}
+
+#success .alert-danger {
+    color: #FFCC33;
+    background-color: #FDFDFD;
+    border-color: #FFCC33;
+    margin-bottom: 10px;
 }

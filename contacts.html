@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <!-- Basic Page Needs
-    ============================================= -->
+    ======================================== -->
     <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <!--[if IE]>
+    <meta http-equiv="x-ua-compatible" content="IE=9" />
+    <![endif]-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Блог Павла Канюги 17types</title>
@@ -13,18 +15,17 @@
     <meta name="author" content="http://happyuser.info">
 
     <!-- Favicons
-    ============================================= -->
+    ======================================== -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap
-    ============================================= -->
+    ======================================== -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- <link href="css/bootstrap-theme.min.css" rel="stylesheet"> -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap-social.css" rel="stylesheet"> -->
 
     <!-- Stylesheet
-    ============================================= -->
+    ======================================== -->
     <link href="css/mystyles.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">
 
@@ -38,10 +39,10 @@
 
 <body>
 
-    <!-- Main Navigation 
-    ============================================= -->
-    <nav id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+<!-- Main Navigation 
+    ======================================== -->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">  <!-- container -->
             <!-- brand & toggle -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -50,18 +51,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
-                </a>
+                <a class="navbar-brand" href="index.html"></a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="navbar" class="navbar-collapse collapse"><!-- navbar-collapse -->
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">
-                            Домашня
-                        </a>
+                        <a href="index.html">Домашня</a>
                     </li>
-                    <!-- menu dropdawn -->
-                    <li class="dropdown">
+                    <li>
+                        <a href="blog.html">Блог</a>
+                    </li>
+                    <li class="dropdown"><!-- menu dropdawn -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">
                             Про мене
@@ -84,10 +84,9 @@
                                 <a href="about_response.html">Відгуки</a>
                             </li>
                         </ul>
-                    </li>
-                    <!--end menu dropdawn -->
-                    <!-- menu dropdawn -->
-                    <li class="dropdown">
+                    </li><!--end menu dropdawn -->
+                    
+                    <li class="dropdown"><!-- menu dropdawn -->
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                             role="button" aria-haspopup="true" aria-expanded="false">
                             Продукти
@@ -95,180 +94,140 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#">Консультування</a>
+                                <a href="about_consult.html">Консультування</a>
                             </li>
                             <li>
-                                <a href="#">Навчальні курси</a>
+                                <a href="about_courses.html">Навчальні курси</a>
                             </li>
                             <li>
-                                <a href="#">Співпраця</a>
+                                <a href="about_cooperation.html">Співпраця</a>
                             </li>
                         </ul>
-                    </li>
-                    <!--end menu dropdawn -->
+                    </li><!--end menu dropdawn -->
                     <li>
-                        <a href="">
-                            Про методику
-                        </a>
+                        <a href="about_method.html">Про методику</a>
                     </li>
                     <li class="active">
-                        <a href="contacts.html">
-                            Контакти
-                        </a>
+                        <a href="contacts.html">Контакти</a>
                     </li>
                 </ul>
-            </div>
-            <!-- end toggle --> </div>
+            </div><!-- navbar-collapse -->
+        </div> <!-- end container --> 
     </nav>
 
-  <!-- Fade Bs-carousel -->
-
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#bs-carousel" data-slide-to="1"></li>
-    <li data-target="#bs-carousel" data-slide-to="2"></li>
-  </ol>
-  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item slides active">
-      <!-- Overlay -->
-  <div class="overlay"></div>
-      <div class="slide-1"></div>
-      <div class="hero">
-        <hgroup>
-            <h1>Ви креативні</h1>        
-            <h3>Почни свій проект</h3>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">Більше</button>
-      </div>
+<!-- Page Header
+    ===========================================-->
+    <div id="header" class="consult">
+        <div class="container"> <!-- container -->
+            <h1>Контакти</h1>
+        </div><!-- end container -->
     </div>
-    <div class="item slides">
-      <div class="slide-2"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>Ви розумні</h1>        
-            <h3>Почни свій проект</h3>
-        </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button">Більше</button>
-      </div>
+
+<!-- Contact Section
+    ================================================== -->
+    <div id="contact">
+        <div class="container"> <!-- container -->
+            <div class="section-header">
+                <h2>Наші<span class="highlight"><strong> Контакти</strong></span></h2>
+            </div>
+        </div><!-- end container -->
+        <div class="container"><!-- container -->
+            <div class="row"> <!-- outer row -->
+                <div class="col-md-10 col-md-offset-1"> <!-- col 10 with offset 1 to centered -->
+                    <div class="row"> <!-- nested row -->
+
+                        <!-- contact detail using col 4 -->
+                        <div class="col-md-4">  
+                            <div class="contact-detail">
+                                <i class="fa fa-map-marker"></i>
+                                <h4>Lviv, 79000</h4> <!-- address -->
+                            </div>
+                        </div>
+                        <!-- contact detail using col 4 -->
+                        <div class="col-md-4">
+                            <div class="contact-detail">
+                                <i class="fa fa-envelope-o"></i>
+                                <h4>4worlds.rules@gmail.com</h4><!-- email add -->
+                            </div>
+                        </div>
+
+                        <!-- contact detail using col 4 -->
+                        <div class="col-md-4">
+                            <div class="contact-detail">
+                                <i class="fa fa-phone"></i>
+                                <h4>+8067 0000 000</h4> <!-- phone no. -->
+                            </div>
+                        </div>
+
+                    </div> <!-- end nested row -->
+                </div> <!-- end col 10 with offset 1 to centered -->
+            </div><!-- end outer row -->
+
+            <div class="row text-center"> <!-- contact form outer row with centered text-->
+                <div class="col-md-10 col-md-offset-1"> <!-- col 10 with offset 1 to centered -->
+                    <form id="contact-form" class="form" name="sentMessage" novalidate> <!-- form wrapper -->
+
+                        <div class="row"> <!-- nested inner row -->
+
+                            <!-- Input your name -->
+                            <div class="col-md-4">
+                                <div class="form-group"> <!-- Your name input -->
+                                    <input type="text" autocomplete="off" class="form-control" placeholder="Ваше ім'я *" id="name" required data-validation-required-message="Введіть Ваше ім'я">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+
+                            <!-- Input your email -->
+                            <div class="col-md-4">
+                                <div class="form-group"> <!-- Your email input -->
+                                    <input type="email" autocomplete="off" class="form-control" placeholder="Ваш Email *" id="email" required data-validation-required-message="Введіть Ваше ім'я email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+
+                            <!-- Input your Phone no. -->
+                            <div class="col-md-4">
+                                <div class="form-group"> <!-- Your email input -->
+                                    <input type="text" autocomplete="off" class="form-control" placeholder="Ваш номер телефону *" id="phone" required data-validation-required-message="Введіть Ваш номер телефону">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+
+                        </div><!-- end nested inner row -->
+
+                        <!-- Message Text area -->
+                        <div class="form-group"> <!-- Your email input -->
+                            <textarea class="form-control" rows="7" placeholder="Напишіть ..." id="message" required data-validation-required-message="Напишіть повідомлення"></textarea>
+                            <p class="help-block text-danger"></p>
+                            <div id="success"></div>
+                        </div>
+                        <button type="submit" class="btn btn-default en-btn">Відправити</button> <!-- Send button -->
+                    </form><!-- end form wrapper -->
+                </div><!-- end col 10 with offset 1 to centered -->
+            </div> <!-- end contact form outer row with centered text-->
+        </div><!-- end container -->
     </div>
-    <div class="item slides">
-      <div class="slide-3"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>Ви чудові</h1>        
-            <h3>Почни свій проект</h3>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">Більше</button>
-      </div>
+
+<!-- Footer 
+    ======================================== -->
+    <div id="footer">
+        <div class="container"><!-- container -->
+            <p class="pull-left">© 2017 16TYPES. Made by <a href="http://happyuser.info">Happyusers</a></p> <!-- copyright text here-->
+            <ul class="list-inline social pull-right">
+                <li><a href="https://www.facebook.com/easyrelations/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://t.me/aboutpeopleandrelations"><i class="fa fa-telegram"></i></a></li>
+                <li><a href="https://plus.google.com/108029410007964055823"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCU3GC8Z6Rar9CkR2NswDeYQ"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div><!-- end container -->
     </div>
-  </div> 
-</div>
-  <!-- End Fade Bs-carousel -->
 
-
-    <header class="jumbotron">
-        <!-- Main component for a primary marketing message or call to action -->
-        <div class="container">
-            <div class="row row-header">
-                <div class='col-sm-8'>
-                    <h1>
-                        <span>Блог</span> про Людей
-                        <br>та Відносини</h1>
-                    <p style="padding:15px;"></p>
-                        <blockquote>
-                            <p>"Живемо між людей, а не між ангелів", - Борісов Володимир</p>
-                        </blockquote>
-                    <p>
-                        Цитати річ геть некорисна якщо у вас немає прикладного застосування.
-                        <!-- <br> -->
-                        Дійсно живемо між людей і не завжди відносини і співпраця є ефективними і комфортними.
-                        <!-- <br> -->
-                        Частіше за все віддаємо все на волю випадковості і не можемо впливати на процес відносин свідомо.
-                        <!-- <br> -->
-                        Але насправді кожна людина може більше....
-                        <!-- <br> -->
-                        Власне про те що може людина в спілкуванні з іншими і є цей блог...
-                        <br>Я, Канюга Павло і це мій блог
-                        </p>
-      
-                </div>
-                <div class='col-sm-4'>
-                <div class="buttons">   
-        <button class="btn btn-hero btn-md" role="button">Про мене</button>
-        <button class="btn btn-hero btn-md" role="button">Блог</button>
-</div> 
-            </div>
-
-            </div>
-        </div>
-    </header>
-
-    <footer class="row-footer">
-        <div class="container">
-            <div class="row row-footer">
-                <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1">
-                    <h5>Меню</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#">Домашня</a>
-                        </li>
-                        <li>
-                            <a href="#">Про мене</a>
-                        </li>
-                        <li>
-                            <a href="#">Продукти</a>
-                        </li>
-                        <li>
-                            <a href="#">Про методику</a>
-                        </li>
-                        <li>
-                            <a href="#">Контакти</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-5">
-                    <h4>16TYPES</h4>
-                    <p>Блог Павла Канюги</p>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="nav navbar-nav" style="padding: 40px 10px;">
-                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/">
-                            <i class="fa fa-youtube"></i>
-                        </a>
-                        <a class="btn btn-social-icon" href="mailto:">
-                            <i class="fa fa-envelope-o"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <p style="padding:10px;"></p>
-                    <p align=center>© Copyright 2017 Blog</p>
-                </div>
-            </div>
-        </div>
-    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+
 
 </body>
-
-</html>
+   
